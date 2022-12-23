@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/NearbyItemsFragment">
+
+    <fragment
+        android:id="@+id/NearbyItemsFragment"
+        android:name="features.nearbyitems.ui.NearbyItemsFragment"
+        android:label="@string/NearbyItemsFragment_fragment_label"
+        tools:layout="@layout/nearby_items_fragment">
+
+        <action
+            android:id="@+id/action_NearbyItemsFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.nearme.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_NearbyItemsFragment"
+            app:destination="@id/NearbyItemsFragment" />
+    </fragment>
+</navigation>
