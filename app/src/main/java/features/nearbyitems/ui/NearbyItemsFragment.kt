@@ -21,13 +21,10 @@ import features.nearbyitems.model.NearByModelList
 class NearbyItemsFragment : Fragment() {
 
     private var _binding: NearbyItemsFragmentBinding? = null
-
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
-
     lateinit var courseGRV: GridView
-    lateinit var courseList: List<NearByItemsModel>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -58,12 +55,8 @@ class NearbyItemsFragment : Fragment() {
         // and passing course list and context.
         val courseAdapter =
             this@NearbyItemsFragment.activity?.let { NearbyItemsAdapter(nearByModelList, it.baseContext) }
-
-
         // on below line we are setting adapter to our grid view.
         courseGRV.adapter = courseAdapter
-
-
     }
 
     override fun onDestroyView() {

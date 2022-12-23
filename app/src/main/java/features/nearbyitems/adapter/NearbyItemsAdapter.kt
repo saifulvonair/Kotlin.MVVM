@@ -41,7 +41,7 @@ class NearbyItemsAdapter(
             dataBinding = DataBindingUtil.inflate(layoutInflater, R.layout.nearby_items_view, null, false);
             convertView = dataBinding.root;
         }
-        dataBinding.model =   this.mListModel[position] as NearByItemsModel //courseList.get(position);
+        dataBinding.model =   this.mListModel[position] as NearByItemsModel
 
         return convertView
     }

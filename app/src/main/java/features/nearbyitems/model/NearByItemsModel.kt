@@ -15,12 +15,4 @@ class NearByItemsModel(name: String, Img: Int, ImgUrl: String): BaseModel()
      var itemImg: Int = Img// We have place URL....
      var imageUrl: String = ImgUrl
 
-     companion object {
-         @BindingAdapter("loadImage")
-         @JvmStatic//Use this to Solve ERROR : Companion is not static and requires an object to use, retrieved from the DataBindingComponent
-         fun loadImage(view: ImageView, imageUrl: String?) {
-             Picasso.with(view.context).load(imageUrl).into(view)
-             //Picasso.with(view.context).load(url).error(R.drawable.error).into(view)
-         }
-     }
  }

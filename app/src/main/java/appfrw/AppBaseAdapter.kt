@@ -6,10 +6,8 @@ import appfrw.ModelList
 
 
 abstract class AppBaseAdapter(context: Context, modelList: ModelList): BaseAdapter() {
-
     protected var mListModel: ModelList = modelList
-    //private val mListModel: ArrayList<BaseModel>  = ArrayList()
-    private var mContext: Context = context
+    protected var mContext: Context = context
 
     fun setModel(modelList: ModelList){
         this.mListModel = modelList

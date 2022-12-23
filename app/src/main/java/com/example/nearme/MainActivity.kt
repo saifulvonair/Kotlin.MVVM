@@ -40,9 +40,6 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
-        var modelList: ModelList = ModelList()
-
-        //modelList.add()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
