@@ -1,0 +1,935 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ARywPAJtwMzzIbVEWdG-OAiq663f69NY99J7Gim-2et9asW_1cJnDonFbMhuATJj_vhPhFoXnssnkccXJfgzNAoFZQE-xqkA2wmbLWHC8SfOrryj7YyDn_FT9RPefJxxHXX3c3hw1dgccynpkAwh5UBiWTLOWuxrtx5NrftAzSQ6zeAfb1G3eDKaVPTQPGxCqYe8eQw2V6l35U4t5pwdZ3Xmc2eDGCFGPAQTIrjMPblf-r9qi9dp8x7spu3g_QlSD4t1G-dt8_k_mOJpJt0JO997UstEYTOzI6NfpyKlHsRxnr9bbL_eTD3gc0pfEevsys5dAzbTaIPghWvY4SmmDy1haY0HWubAU2_SrlRLXw7De0GTu8Frb8LpUbi6fxJHhmDujX59QXEZPDD06podSyUAO_2Pw-80DiGRtVFzPrCsAA1JxX80_x7NDfwWdvI6",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8120563,
+               "lng" : 90.4220469
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8133625302915,
+                  "lng" : 90.42340033029151
+               },
+               "southwest" : {
+                  "lat" : 23.8106645697085,
+                  "lng" : 90.42070236970851
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Magpie Thai and Chinese Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105974512057796278586\"\u003emgh reza\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIO-PzRD6WHTOeHUpT6gIf0fqqzo69gQsYb1YlJfR4bawEWV3UTegfXjBqxrDxQhpmqltgNUlCG-BxVnwNiY3ZA1zTyorGofT0afIeKtG5YN58uE1O-_czTzxduouChfBvmkbbBLz7-hMQOGwLuC8Ql_xXlZpizXpmFEARYFHAwFs1u",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJozRxWq3HVTcRxryJMys-sFs",
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJozRxWq3HVTcRxryJMys-sFs",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 716,
+         "vicinity" : "RC6C+RRF, Bashundhara Road, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8024493,
+               "lng" : 90.39592189999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8038369802915,
+                  "lng" : 90.3972385302915
+               },
+               "southwest" : {
+                  "lat" : 23.8011390197085,
+                  "lng" : 90.39454056970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Tasty Tibet - CSD",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117357097273308005946\"\u003eMohammad Ziaul Hoque\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALcAbYyBi0kQLWfnPh37DRpCUyptAHul7LFLUI7jAokvCCIvrTEV0YHFuRSx-tpZ_DZksatJ2X20mZit81hjk1SzuTZOYQCjxKyCsTb9hpU878fjWUThrltvTTYi3TQPjwnJjZ68LPck-qPUGbrYMhv8aER0Q1q5lx2frAEfNzP2EVX",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJu0w3GRnHVTcRx7hagSiVCis",
+         "plus_code" : {
+            "compound_code" : "R92W+X9 Dhaka, Bangladesh",
+            "global_code" : "7MMGR92W+X9"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJu0w3GRnHVTcRx7hagSiVCis",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 100,
+         "vicinity" : "CSD DCS TESS CSD Bhaban, Shaheed Sharani, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8189386,
+               "lng" : 90.4141559
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8201255302915,
+                  "lng" : 90.4156312302915
+               },
+               "southwest" : {
+                  "lat" : 23.8174275697085,
+                  "lng" : 90.41293326970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Palm View Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 723,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107411136416040950385\"\u003eMahmuda Haque CEO\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIuwAYFOpBl1zbnAfcXJPmEgqMUJ4CKkPNjyenCO2Ho5jLgnHMspgbdzqF_1eFvNz_URd05scCDVWarrCDTa2T8sh75Yau16oDlVLZteq283Ct6PYJd4qjkMXe21ifuAdA5KhY-oXDsUbmfyntEdCgBE_Uk-W6B1Dqb4_rz7XQ6qjcD",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJBQbGy1fGVTcR3iftX4xYrC4",
+         "rating" : 4.3,
+         "reference" : "ChIJBQbGy1fGVTcR3iftX4xYrC4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 1947,
+         "vicinity" : "RC97+HMC, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.802477,
+               "lng" : 90.4229629
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8038130302915,
+                  "lng" : 90.4242344802915
+               },
+               "southwest" : {
+                  "lat" : 23.8011150697085,
+                  "lng" : 90.4215365197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "The Atrium Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106911776427888035816\"\u003eMahmud Ahmad\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJcaBpY-SlmQNPyhH0O-7yypioZ_wsPyG1vgBIXi4kvbpKkG5mFleeB9MDBzW4ppmvSvlirp1fgIaIyFJnM_FyKyfNieezwcTrZzgPTCxciZntFygs_A0eGx0bJYQyFbs7ayXqucssUkpzB5uU50fvdSYzzpvu022Ye4yIpKhnQo_BR",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJS8DMxrHHVTcRr3Fl1Xug8qY",
+         "plus_code" : {
+            "compound_code" : "RC2F+X5 Dhaka, Bangladesh",
+            "global_code" : "7MMGRC2F+X5"
+         },
+         "price_level" : 3,
+         "rating" : 4,
+         "reference" : "ChIJS8DMxrHHVTcRr3Fl1Xug8qY",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 2083,
+         "vicinity" : "50 & 52, Pragati Avenue, J Block, Baridhara, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8066349,
+               "lng" : 90.4162212
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8080939802915,
+                  "lng" : 90.41749043029152
+               },
+               "southwest" : {
+                  "lat" : 23.8053960197085,
+                  "lng" : 90.4147924697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Margarita Resturant and Cafe",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110245021993425282046\"\u003eRubyat Khan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKqDXwgrFA0blE0FR0wih_dFtkuKpf-FbPR0jnXFzHIb_NEcxouQXKZNyqdM7xiA0D5NezWImKMQ8E6V9wyJZF5-zT-RaV3kN0lhDRDgqGd-VzXHQtgHnRNvcj7i0fQiRnJOFBcA6PrO_ALrydIENWfGuGS-UirYyZYt-HiQyDPiaMt",
+               "width" : 2368
+            }
+         ],
+         "place_id" : "ChIJZeTheKzHVTcRwZWaCuoFm_M",
+         "plus_code" : {
+            "compound_code" : "RC48+MF Dhaka, Bangladesh",
+            "global_code" : "7MMGRC48+MF"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJZeTheKzHVTcRwZWaCuoFm_M",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "10/2 Kalachandpur Main Road, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8190275,
+               "lng" : 90.41372729999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8202649802915,
+                  "lng" : 90.4147607802915
+               },
+               "southwest" : {
+                  "lat" : 23.81756701970849,
+                  "lng" : 90.4120628197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "Golf Cafe",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2250,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105018166010284341850\"\u003eSaif Islam\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALKlMT6g_QBrNupZ-g-F0oirTy90NYqPOBeHM9R0yjcmdkhABVFFT95snAVjgRZ8AQ2vb24erKk-4zHhz6AByW1d1ZuSDnUHaoaw0dhTKMHdSj_xw_sTfRQ2abg_TUo05ei_-sGyYVl6eAfKr8ORDVwIeEGNxlq_yj22KafXQz2Tu1s",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJbXS1TlbGVTcRxMXin2Y7L4k",
+         "rating" : 4.5,
+         "reference" : "ChIJbXS1TlbGVTcRxMXin2Y7L4k",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 254,
+         "vicinity" : "Army Golf Club, Airport Road, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8091434,
+               "lng" : 90.4135285
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.81042838029151,
+                  "lng" : 90.41479753029149
+               },
+               "southwest" : {
+                  "lat" : 23.8077304197085,
+                  "lng" : 90.41209956970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Dallas Cafe & Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1868,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112222807597190469976\"\u003eM R K Rizvi\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJRzVA_HA-oRX6Vo4H_JVKaick_L38uJumuy0a_F1GIK9LwG1yJ97p-HQqZD31oFfFf4u5802DxJjd2MDsYKfiymRqUwZ3mvO6QszyGHmAgUZotuPZhHX8OrDzRlurBSZglqyELE47BGfbDPX8lz4qPk1wFPVhQpfVDFk8z7ohLJpWh",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJT_WOwKrHVTcR3tjZ5_sorKE",
+         "plus_code" : {
+            "compound_code" : "RC57+MC Dhaka, Bangladesh",
+            "global_code" : "7MMGRC57+MC"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJT_WOwKrHVTcR3tjZ5_sorKE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 354,
+         "vicinity" : "Annanya Shopping Complex Road13, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.80728299999999,
+               "lng" : 90.4170972
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8085984302915,
+                  "lng" : 90.4184559302915
+               },
+               "southwest" : {
+                  "lat" : 23.80590046970849,
+                  "lng" : 90.41575796970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "CP Five Star - Angel Food",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109233611489745482987\"\u003eMehery Chowdhury\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJe86l4NY4MMGGHu5DZoQk1aM4S-QkW2rpT8ELNnNkCLPEnQ8Qn8nSiEgL0OYXHCQ_8RfBNOteWcpY_9RKXyqTg_HTA97x8rKdJpzJvFLhb6EjcvhqtnpGOBQfoQOhKY7M1XL_5bQthB_7zq_MvPKmss2m-rvDtKGsbNHbSbKLGVraG",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ1TA7gKvHVTcR4VZuQ5KxXAY",
+         "rating" : 3.9,
+         "reference" : "ChIJ1TA7gKvHVTcR4VZuQ5KxXAY",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 224,
+         "vicinity" : "RC48+WR9, Kalachandpur Main Road, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8031317,
+               "lng" : 90.40911009999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8044854802915,
+                  "lng" : 90.4105048302915
+               },
+               "southwest" : {
+                  "lat" : 23.8017875197085,
+                  "lng" : 90.40780686970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "hotel Aristocrat in restaurent",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 900,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103346097315022666263\"\u003eSheikh Muhammad Abu Musa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKg58dMPRHeLpEMs665tpbpCxBgwD_Xkwn-4gfW3s84cTQLZ_x4XnrJqHztVsp95t5Y40UZEDMVVz3A8iTHFwbVt9ZhzSJrEBmTbbu6x2PQrBxv8x4X6G-WpLHDJ5bT37vTTJypeGMHQkmtbBiRN6qMeSxBIOveYOQ8OrCEfF-VlCTx",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJV3AkwQbHVTcRxtAhuEBoaC4",
+         "rating" : 3.8,
+         "reference" : "ChIJV3AkwQbHVTcRxtAhuEBoaC4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 12,
+         "vicinity" : "RC35+7J5, Road Number 68, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8146254,
+               "lng" : 90.42095430000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.81597663029151,
+                  "lng" : 90.42236758029151
+               },
+               "southwest" : {
+                  "lat" : 23.8132786697085,
+                  "lng" : 90.4196696197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Aziz Food Corner",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113280283606642504704\"\u003eshohagh hossain\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALCJoX-_mjIRUM0T8WTPjbrx6PrepHr6lARTTy0I3p8AYMue1SORa4cSZRagaTXLNMnqyNKq3S9dvV0txF-_MT5aWCscFYZo871JGRgS6Rj7Gr8GrkxSnGgrKiR5R-LAcWggyni6GXBkM7zely-vSnnBuOKnJPPJyGeE3SclI7U86mK",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJkzZla1LGVTcRqHssHErLhGU",
+         "plus_code" : {
+            "compound_code" : "RC7C+V9 Dhaka, Bangladesh",
+            "global_code" : "7MMGRC7C+V9"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJkzZla1LGVTcRqHssHErLhGU",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Ka-52 Kuril Chowrasta, 52 Progati Sarani Road, Dhaka"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8118713,
+               "lng" : 90.42268279999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8132649802915,
+                  "lng" : 90.42402658029151
+               },
+               "southwest" : {
+                  "lat" : 23.8105670197085,
+                  "lng" : 90.42132861970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "CFC",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1200,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116676593096372528826\"\u003eRashed Uddin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALesmZ0YV1VkbwbDQozT1ruRIEFTxouqYiZtDFmnez-Pag7-Qs4HLg10dleIqlLyGuGxpno5R4cszFq82sdopLtgu7fLcJYqJ4dT-rXY6PildlxMq9VGQbE1R9nGr_8kGgRnwpNItFsYpgL2td21sylUEnh2BvyFnOocdEpWlTm3Lxc",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJe2esaU3GVTcRXNtFQPPLAbs",
+         "plus_code" : {
+            "compound_code" : "RC6F+P3 Dhaka, Bangladesh",
+            "global_code" : "7MMGRC6F+P3"
+         },
+         "price_level" : 2,
+         "reference" : "ChIJe2esaU3GVTcRXNtFQPPLAbs",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "vicinity" : "Ka-54, 3 Bashundhara Road, Dhaka"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8005496,
+               "lng" : 90.41208709999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8018848802915,
+                  "lng" : 90.41339293029151
+               },
+               "southwest" : {
+                  "lat" : 23.7991869197085,
+                  "lng" : 90.4106949697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Meraki",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110926987641404359589\"\u003eAhmed Arif Sirajee\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJeV081w5Wf2TTdIgaThy_pmUhSzvLhpGfmYgf23ocwA-KP216j7JyBrMipyHnqqaNQtRa_a89MF3gtDW5TcqmZZJ2XdRi_vrLM9UxWqodpMcs8H7K3sTlUa5MgwWHQ1B7so8Z2BPddzXU5Bw85fhEDyBvm2dOGH_tC7Nh3ieC1f_ur",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJiXwJjwfHVTcRsAxg1wHvCms",
+         "plus_code" : {
+            "compound_code" : "RC26+6R Dhaka, Bangladesh",
+            "global_code" : "7MMGRC26+6R"
+         },
+         "price_level" : 3,
+         "rating" : 3.9,
+         "reference" : "ChIJiXwJjwfHVTcRsAxg1wHvCms",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 374,
+         "vicinity" : "188 Gulshan North Avenue, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.81362979999999,
+               "lng" : 90.4239838
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8153663302915,
+                  "lng" : 90.42524018029151
+               },
+               "southwest" : {
+                  "lat" : 23.81266836970849,
+                  "lng" : 90.42254221970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Saffron Restaurant and Cafe",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 683,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115093033992517719552\"\u003eCrise Cardiac Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIpTNZQsrgSZKtSxFch65-URpb855iY81EUzonn1D0UeF89bNk80438mttn8fYNdcGUhGwPfAfz0z-204fIu-al4bSfFRFkCMAywBEPv23Pd1_HyYMZjMbN54D-zDlTDqeMSaZzWbgDmwc6yupplFJVz_CKc7PXo-jkblplln5Qyfrp",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJAQAAcDPBVTcR8UZ_dZUjN1E",
+         "plus_code" : {
+            "compound_code" : "RC7F+FH Dhaka, Bangladesh",
+            "global_code" : "7MMGRC7F+FH"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJAQAAcDPBVTcR8UZ_dZUjN1E",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 145,
+         "vicinity" : "KA-244, Shop No 1-2, Block- D, Kuril, Progoti Sharani Jamuna Future Park, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.7985447,
+               "lng" : 90.4122565
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7998374302915,
+                  "lng" : 90.41361748029151
+               },
+               "southwest" : {
+                  "lat" : 23.7971394697085,
+                  "lng" : 90.4109195197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "ক্যালিফোর্নিয়া ফ্রাইড চিকেন এন্ড পেস্ট্রি শপ",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2250,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108010155820830827347\"\u003eKamrul Hasan Razib\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJxYAvkRveBm5UM3zKhHfgHFTnKkzRzGosFhr-sVoHu6XuRFZz3WQCEPx4j9fPPy_g49yvSDYeufvVbyrTBr64Xlhxq0soA9Lrf5cYWfY4yoGawFofA8DCLx-FHdQYMJzSloFmLNji4oGX-Sj9oOUkLJDIRDrcMfl32KFlABr1mC1cA",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJPzB2_wfHVTcRMuIQcHhnXeY",
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJPzB2_wfHVTcRMuIQcHhnXeY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 529,
+         "vicinity" : "QCX6+CW6, Road No - 25, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8131804,
+               "lng" : 90.42366659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8144671302915,
+                  "lng" : 90.42473303029151
+               },
+               "southwest" : {
+                  "lat" : 23.8117691697085,
+                  "lng" : 90.42203506970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "KFC - Jamuna Future Park Complex",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1311,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105658237526378718334\"\u003eMele Jesmin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL5t6nDWFcjV0TflkNNP5OtjlVXTzb6iEcZltc-_J1Tvhp-c3_8jLzRIFxIatUSqLc6TSZhErfvbFa3n8rmOMAfUOUOv47N79bAEJEmXpuAOgjF8cqwhdySYjxhMAC5TZSvYk7UzYyaS_nJUv0CQBSBuu-NumeW2C4tg7yz6DniOneH",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ4ceNB03GVTcRttrs96U94pE",
+         "plus_code" : {
+            "compound_code" : "RC7F+7F Dhaka, Bangladesh",
+            "global_code" : "7MMGRC7F+7F"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJ4ceNB03GVTcRttrs96U94pE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 373,
+         "vicinity" : "Shop No # 5C-013, 5th Floor, Jamuna Future Park Complex, KA - 244, Kurli, Progoti Sarani - Debogram Road, ঢাকা"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8121157,
+               "lng" : 90.4239862
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8135100802915,
+                  "lng" : 90.42531968029149
+               },
+               "southwest" : {
+                  "lat" : 23.81081211970849,
+                  "lng" : 90.42262171970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Food 24x7",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3984,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101050510210647412274\"\u003eSOHEL talukder\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJF3rWK1d4XbvSCN_xwKcE5Ah5YF_wM50Rlanvm5FAdtvQtF5ycXWmELxFWxBhIYVcCH88UoW3qtRnPUPlTZUXr_tqm0RqNE_cjt-d5Go41gIi5Wy7w1ANHcaRB81fAudBEgmg3aYhikt7JaRxXF0OQOBYIQvvrXnQHnWb-KvdR0ow4",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJjdY4G03GVTcRmay3rYqqpTg",
+         "plus_code" : {
+            "compound_code" : "RC6F+RH Dhaka, Bangladesh",
+            "global_code" : "7MMGRC6F+RH"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJjdY4G03GVTcRmay3rYqqpTg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 88,
+         "vicinity" : "KA-5A, Jagannathpur Road, Bashundhara Main Gate, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8129945,
+               "lng" : 90.4238453
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8140655302915,
+                  "lng" : 90.4252662302915
+               },
+               "southwest" : {
+                  "lat" : 23.8113675697085,
+                  "lng" : 90.42256826970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "BFC (Best Fried Chicken)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1301,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103043899579130649522\"\u003eBFC (Best Fried Chicken)\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALSOa2BVjwd08Tq-Io7wF5-vF5rhPwjgb_yO9_Gw4dDkR6L_fdUh0pnVgwwSR_ZQKoE9-LHmSin4MO5y17nciESCAdL-l6ihU4jjLmRbtwq5j69TaowczuHLfny99BbX0ZKzSqzDv6p4TDUVxqOwpKf3oFddx2fhehhsGt0R3SiiFw",
+               "width" : 3418
+            }
+         ],
+         "place_id" : "ChIJBVG4p03GVTcR-xdNDDSZIoc",
+         "plus_code" : {
+            "compound_code" : "RC7F+5G Dhaka, Bangladesh",
+            "global_code" : "7MMGRC7F+5G"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJBVG4p03GVTcR-xdNDDSZIoc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 114,
+         "vicinity" : "Shop No. 5D-075, KA-241, Food Court, Jamuna Future Park, Kuril, Progoti Sarani, Baridhara, Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8122253,
+               "lng" : 90.42415819999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8135798302915,
+                  "lng" : 90.4255053302915
+               },
+               "southwest" : {
+                  "lat" : 23.8108818697085,
+                  "lng" : 90.42280736970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Jafran Resto",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2250,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110541783153272089426\"\u003eSudipta Samaddar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJWiH84yPObo5fqvFgTgAi7ViCXeVI6o-IwzhVBXEbhY7Aqnh9XNvQduei4INaZwn7rgPlzppYoPp35AdLP-h95TsSG6RSGS_BSLdiZ3LyNk2jCbGDGW4GkwmkgHMpgPbfn9Qsi8HvE-PG8UTei8rqP_zwwjLfuFoGOiMcNFsooAYAf",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJF4cKZ0vGVTcRX9v-yGH-Bdo",
+         "plus_code" : {
+            "compound_code" : "RC6F+VM Dhaka, Bangladesh",
+            "global_code" : "7MMGRC6F+VM"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJF4cKZ0vGVTcRX9v-yGH-Bdo",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 1708,
+         "vicinity" : "Lift 5, fifth floor, Adept NR Complex( beside Pitha Ghar) ,Opposite to Jamuna Future Park Pocket Gate Road, ঢাকা"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8116124,
+               "lng" : 90.4242661
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8129614802915,
+                  "lng" : 90.42560788029151
+               },
+               "southwest" : {
+                  "lat" : 23.8102635197085,
+                  "lng" : 90.4229099197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Chui Jhal restaurant bashundhara",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113050708404708114660\"\u003eSymum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALRksJshAzZqfQuB6c6AO95sy48W4HYf6ipfdOwrjtM3whfRAgmd99amQAXEaPY9hzXSYnsStCGeAsioTejq_gfpr08hiGdkazBeKkQqLfE811MskjEuTtk8wpN6lEdvtA4h0VsYNwDOQwDFLalyXlev9aS9JIXCn9HheQk7f64kxJ8",
+               "width" : 3000
+            }
+         ],
+         "place_id" : "ChIJbcJLPE3GVTcRlu-yrp4gZsc",
+         "plus_code" : {
+            "compound_code" : "RC6F+JP Dhaka, Bangladesh",
+            "global_code" : "7MMGRC6F+JP"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJbcJLPE3GVTcRlu-yrp4gZsc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 872,
+         "vicinity" : "Bashundhara Road (The Lane Beside Bailey Pithaghor), Dhaka"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.8135673,
+               "lng" : 90.42434019999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8150010302915,
+                  "lng" : 90.4261094302915
+               },
+               "southwest" : {
+                  "lat" : 23.81230306970849,
+                  "lng" : 90.42341146970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Arsalan Restaurant",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116728067778103059854\"\u003eAbdul Hamid Fakir\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIaF9Y1ElsrEQhMDW72L1svHzW0geWGZCQ2-PpwnEr1jEUcY160U_DH6gTXuQilWOJwx4eiysxZ5NM_JqyWg2SIoCvWhqvPecM41Umxa0fG7iMJ-EAZgyDmv2gWs2jnjG65NKX99hWJfi2qP-3uSczEeFifzg8MuY9rDTsGgzz0tFwe",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJw-qqrU3GVTcRDRdnX1ChdvE",
+         "plus_code" : {
+            "compound_code" : "RC7F+CP Dhaka, Bangladesh",
+            "global_code" : "7MMGRC7F+CP"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJw-qqrU3GVTcRDRdnX1ChdvE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 163,
+         "vicinity" : "Shop 6,7,8,29 Level 5, Zone D, Jamuna Future Park, Dhaka - 1229, 1229"
+      }
+   ],
+   "status" : "OK"
+}

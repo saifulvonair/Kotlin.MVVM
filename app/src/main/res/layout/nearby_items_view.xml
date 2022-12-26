@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-        <variable
-            name="model"
-            type="features.nearbyitems.model.NearByItemsModel" />
-    </data>
-
-    <androidx.cardview.widget.CardView
-    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="5dp"
+    android:minHeight="180dp"
     app:cardCornerRadius="5dp"
     app:cardElevation="5dp">
 
     <!--on below line we are creating
         a linear layout for grid view item-->
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:minHeight="180dp"
         android:orientation="vertical">
 
         <!--on below line we are creating
             a simple image view-->
         <ImageView
             android:id="@+id/idIVNearbyItemImage"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:padding="4dp"
-            app:loadImage="@{model.imageUrl}"
+            android:src="@drawable/ic_default_image"
             />
 
         <!--on below line we are creating
@@ -48,10 +42,9 @@
             android:padding="4dp"
             android:text="@={model.itemName}"
             android:textAlignment="center"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@color/black" />
 
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>
-
-</layout>

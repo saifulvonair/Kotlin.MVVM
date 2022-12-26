@@ -5,11 +5,23 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/NearbyItemsFragment">
 
+
     <fragment
         android:id="@+id/NearbyItemsFragment"
-        android:name="features.nearbyitems.ui.NearbyItemsFragment"
+        android:name="features.nearbyitems.fragment.NearbyItemsFragment"
         android:label="@string/NearbyItemsFragment_fragment_label"
         tools:layout="@layout/nearby_items_fragment">
+
+        <action
+            android:id="@+id/action_NearbyItemsFragment_to_SecondFragment"
+            app:destination="@id/NearbySpecificItemsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/NearbySpecificItemsFragment"
+        android:name="features.nearbyspecificitems.fragment.NearbySpecificItemsFragment"
+        android:label="@string/NearbyItemsFragment_fragment_label"
+        tools:layout="@layout/nearby_specific_items_fragment">
 
         <action
             android:id="@+id/action_NearbyItemsFragment_to_SecondFragment"
@@ -17,12 +29,12 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.nearme.SecondFragment"
+        android:name="features.specicifitemdetails.fragment.SpecificItemDetailsFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/specific_item_detatail_fragment">
 
         <action
             android:id="@+id/action_SecondFragment_to_NearbyItemsFragment"
-            app:destination="@id/NearbyItemsFragment" />
+            app:destination="@id/NearbySpecificItemsFragment" />
     </fragment>
 </navigation>

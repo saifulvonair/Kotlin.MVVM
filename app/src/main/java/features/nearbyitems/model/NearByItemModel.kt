@@ -1,18 +1,12 @@
 package features.nearbyitems.model
 
-import android.util.Log
-import android.view.View
-import android.widget.ImageView
-import androidx.databinding.BindingAdapter
-import appfrw.model.BaseModel
-import com.squareup.picasso.Picasso
+import features.base.BasePlaceModel
 
 //class NearByItemsModel(name: String, Img: Int, ImgUrl: String)
-class NearByItemsModel(name: String, Img: Int, ImgUrl: String): BaseModel()
+class NearByItemModel(name: String, Img: Int, ImgUrl: String): BasePlaceModel()
  {
      //ERROR: The expression cannot be inverted, so it cannot be used in a two-way binding
      var itemName: String = name;
      var itemImg: Int = Img// We have place URL....
      var imageUrl: String = ImgUrl
-
  }

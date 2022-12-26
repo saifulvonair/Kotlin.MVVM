@@ -1,6 +1,50 @@
 package appfrw
 
+import android.content.Context
 import appfrw.model.BaseModel
+import org.json.JSONObject
 
-open class ModelList : ArrayList<BaseModel>() {
+open abstract class ModelList : ArrayList<BaseModel>() {
+    protected lateinit var mContext: Context
+    protected lateinit var mObserver: IModelObserver
+    protected  var mDataLoaded: Boolean = false
+    protected var mQueryParam: JSONObject = JSONObject()
+
+
+    interface IModelObserver {
+        fun update()
+    }
+
+    fun setContext(context: Context){
+        this.mContext = context
+    }
+
+    fun setObserver(observer: IModelObserver){
+        this.mObserver = observer
+    }
+
+    fun notifyUpdate(){
+        if(mObserver != null){
+            mObserver.update()
+        }
+    }
+
+    fun resetDataLoaded(){
+        mDataLoaded = false
+    }
+
+    fun addItem(baseModel: BaseModel): BaseModel{
+        this.add(baseModel)
+        return baseModel
+    }
+
+    fun setQueryParam(queryParam: JSONObject) {
+            this.mQueryParam = queryParam
+    }
+
+    fun updateQueryParam(key: String, value: String){
+        this.mQueryParam!!.put(key, value)
+    }
+
+    abstract fun load()
 }

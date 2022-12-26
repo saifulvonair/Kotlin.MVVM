@@ -1,3 +1,4 @@
+package features.nearbyspecificitems.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,11 +9,11 @@ import android.widget.TextView
 import appfrw.ModelList
 import appfrw.model.AppBaseAdapter
 import com.example.nearme.R
-import features.nearbyitems.model.NearByItemModel
+import features.nearbyspecificitems.model.NearBySpecificItemsModel
 
 // on below line we are creating an
 // adapter class for our grid view.
-class NearbyItemsAdapter(
+class NearbySpecificItemsAdapter(
     // on below line we are creating two
     // variables for course list and context
     private val modelList: ModelList,
@@ -26,7 +27,7 @@ class NearbyItemsAdapter(
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
 
         var convertView = convertView
-        var nearByItemsModel = this.mListModel[position] as NearByItemModel
+        var nearByItemsModel = this.mListModel[position] as NearBySpecificItemsModel
         // If it is null we are initializing it.
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.nearby_items_view, null)

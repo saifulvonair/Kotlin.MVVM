@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<places>
+    <place name="restaurant" image= "">restaurant</place>
+    <place name="mosque" image= "">mosque</place>
+    <place name="parking" image= "">parking</place>
+    <place name="car_wash" image= "">car_wash</place>
+    <place name="car_repair" image= "">car_repair</place>
+</places>
