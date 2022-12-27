@@ -79,13 +79,20 @@ class NearBySpecificModelList: BaseNearbyModelList(), WebApiCall.WebApiCalObserv
                 }catch (e: java.lang.Exception){
                     Log.d("if(photo != null)", "No value for photos")
                 }
-                 var basePlaceModel = this.addItem(NearBySpecificItemsModel(name, R.drawable.ic_launcher_background, imageUrl))
+
+                // TODO test code..
+                if(imageUrl == "" || imageUrl.isEmpty()){
+                   // imageUrl = "https://lh6.googleusercontent.com/-55osAWw3x0Q/URquUtcFr5I/AAAAAAAAAbs/rWlj1RUKrYI/s1024/A%252520Photographer.jpg"
+                }
+                var basePlaceModel = this.addItem(NearBySpecificItemsModel(name, R.drawable.ic_launcher_background, imageUrl))
+
+                //var basePlaceModel = this.addItem(NearBySpecificItemsModel(i.toString(), R.drawable.ic_launcher_background, "https://lh6.googleusercontent.com/-55osAWw3x0Q/URquUtcFr5I/AAAAAAAAAbs/rWlj1RUKrYI/s1024/A%252520Photographer.jpg"))
                 resultJSONObject.put("mMaxPhotoWidth",this.mQueryParam!!.getString("mMaxPhotoWidth"))
                 resultJSONObject.put("mThumbnailWidth",this.mQueryParam!!.getString("mThumbnailWidth"))
                 basePlaceModel.setJSONProperty(resultJSONObject)
-                notifyUpdate();
-                Log.d("resultJSONObject",bs)
+                //Log.d("resultJSONObject=>",name+" =>" + imageUrl)
             }
+            notifyUpdate();
             mDataLoaded = true;
         }
     }

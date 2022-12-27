@@ -37,7 +37,6 @@ class NearbySpecificItemsAdapter(
         var textView = convertView!!.findViewById<TextView>(R.id.idTVNearbyItemName)
         textView.text = nearByItemsModel.itemName
 
-        //Picasso.with(context).load(R.drawable.ic_default_image)
         nearByItemsModel.loadImage(imageview, nearByItemsModel.imageUrl)
 
         return convertView
