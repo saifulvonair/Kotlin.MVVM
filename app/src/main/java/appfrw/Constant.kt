@@ -7,7 +7,7 @@ class Constant {
         @JvmStatic
         val mWebUrlRoot: String = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
         @JvmStatic
-        val mApiKey: String = "AIzaSyBLzNu8HIdVsLYVEnHS0cNgShjSCVXlOOA"
+        val mApiKey: String = "...."
         @JvmStatic
         val mGooglePhotoUrlRoot: String = "https://maps.googleapis.com/maps/api/place/photo"
         @JvmStatic
