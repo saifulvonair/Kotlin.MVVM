@@ -36,9 +36,11 @@ class NearBySpecificModelList: BaseNearbyModelList(), WebApiCall.WebApiCalObserv
             return
         }
 
+        var keyword: String = mQueryParam!!.getString("mType")//"fuel%20station%20&"
         var url : String// = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=23.810331,90.412521&radius=1500&type=restaurant&key=AIzaSyBLzNu8HIdVsLYVEnHS0cNgShjSCVXlOOA"
         //
-        url = mQueryParam!!.getString("mWebUrlRoot") + "?location=" + mQueryParam!!.getString("mLat") +
+        url = mQueryParam!!.getString("mWebUrlRoot") + "?" + "keyword="+keyword+
+                "&location=" + mQueryParam!!.getString("mLat") +
                 "," + mQueryParam!!.getString("mLong") + "&radius="+ mQueryParam!!.getInt("mRadius") +
                 "&type="+ mQueryParam!!.getString("mType") + "&key="+ mQueryParam!!.getString("mApiKey")
         var webApiCall: WebApiCall = WebApiCall()

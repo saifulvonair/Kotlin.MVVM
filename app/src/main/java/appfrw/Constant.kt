@@ -15,7 +15,7 @@ class Constant {
         @JvmStatic
         val  mMaxPhotoWidth = 500
         @JvmStatic
-        var  mRadius = 2000
+        var  mRadius = 5000
         @JvmStatic
         val mPlaceListFileName: String = "placetype.xml"
     }

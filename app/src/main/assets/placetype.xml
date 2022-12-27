@@ -2,6 +2,7 @@
 <places>
     <place name="restaurant" image= "">restaurant</place>
     <place name="gas_station" image= "">gas_station</place>
+    <place name="fuel%20station" image= "">fuel%20station</place>
     <place name="mosque" image= "">mosque</place>
     <place name="parking" image= "">parking</place>
     <place name="car_wash" image= "">car_wash</place>
