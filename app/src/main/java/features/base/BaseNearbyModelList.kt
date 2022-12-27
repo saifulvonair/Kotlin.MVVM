@@ -2,6 +2,7 @@ package features.base
 
 import android.content.Context
 import appfrw.Constant
+import appfrw.LocationModel
 import appfrw.ModelList
 import appfrw.model.BaseModel
 import features.nearbyitems.model.NearByItemModel
@@ -15,8 +16,10 @@ open abstract class BaseNearbyModelList() : ModelList() {
         queryParam.put("mWebUrlRoot", Constant.mWebUrlRoot)
         queryParam.put("mApiKey", Constant.mApiKey)
         // TODO need to get from service
-        queryParam.put("mLat", "23.810331")
-        queryParam.put("mLong", "90.412521")
+        //queryParam.put("mLat", "23.810331")
+        //queryParam.put("mLong", "90.412521")
+        fillLocation()
+
         queryParam.put("mRadius", Constant.mRadius)
         // End TODO
         //fillSelectedType();
@@ -32,6 +35,22 @@ open abstract class BaseNearbyModelList() : ModelList() {
         //
         this.clear()
         doLoad()
+    }
+
+    private fun fillLocation(){
+        //queryParam.put("mLat", "23.810331")
+        //queryParam.put("mLong", "90.412521")
+
+        var lon= LocationModel.Instance().getLongitude()
+        var lat = LocationModel.Instance().getLatitude()
+
+        if(lon.isEmpty() || lat.isEmpty()){
+            lat = "23.810331"
+            lon = "90.412521"
+        }
+        mQueryParam.put("mLat", lat)
+        mQueryParam.put("mLong", lon)
+
     }
 
     private fun fillSelectedType(){
