@@ -58,9 +58,7 @@ class NearbyItemsFragment : BaseFragment() , ModelList.IModelObserver{
             var nearByItemModel = nearByModelList.get(position) as NearByItemModel
             //SelectedItemModel.Instance().updateSelection( nearByItemModel)
             NearBySpecificModelList.Instance().updateQueryParam("mType", nearByItemModel.getPropertyValue("name") as String)
-
             findNavController().navigate(R.id.action_NearbyItemsFragment_to_SecondFragment)
-
         })
 
     }

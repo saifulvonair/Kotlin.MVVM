@@ -27,11 +27,11 @@ class LocationModel: ModelList() {
         val location = location//: Location? = task.result
         if (location != null) {
             val geocoder = Geocoder(context, Locale.getDefault())
-            val list: List<Address> =
-                geocoder.getFromLocation(location.latitude, location.longitude, 1)
-            var latitude: String = "${list[0].latitude}"
-            var longitude: String = "${list[0].longitude}"
-            var address: String = list[0].getAddressLine(0)
+            //val list: List<Address> =
+            //    geocoder.getFromLocation(location.latitude, location.longitude, 1)
+            var latitude: String = "${location.latitude}"
+            var longitude: String = "${location.longitude}"
+            //var address: String = list[0].getAddressLine(0)
 
             this.updateQueryParam("mLat", latitude)
             this.updateQueryParam("mLong", longitude)

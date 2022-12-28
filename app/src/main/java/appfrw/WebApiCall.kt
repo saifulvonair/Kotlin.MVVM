@@ -1,5 +1,6 @@
 package appfrw
 
+import android.util.Log
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
@@ -36,27 +37,17 @@ class WebApiCall {
             .url(url)
             .build()
 
-        client.newCall(request).execute().use { response ->
-            if (!response.isSuccessful) throw IOException("Unexpected code $response")
-            var responseBody: String = response.body!!.string()
-            var responseHeader: String = response.headers.toString()
-            //
-            var responseObject: WebResponseObject = WebResponseObject(responseBody, responseHeader, response)
-
-            webApiCalObserver.update(responseObject)
-
-            /*
-            //for ((name, value) in response.headers) {
-            // println("$name: $value")
-            //Log.d("NearBySearch",value)
-            //}
-            //println(response.body!!.string())
-            //Log.d("NearBySearch",response.body!!.string())
-
-            //Log.d("responsedata-NearBySearch",responsedata)
-
-            var ii: Int = 10
-            */
+        try{
+            client.newCall(request).execute().use { response ->
+                if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                var responseBody: String = response.body!!.string()
+                var responseHeader: String = response.headers.toString()
+                //
+                var responseObject: WebResponseObject = WebResponseObject(responseBody, responseHeader, response)
+                webApiCalObserver.update(responseObject)
+            }
+        }catch (e: Exception){
+            Log.d("fun get(webApiCalObserver: WebApiCalObserver, url: String)","Failed... Plz check Net connection")
         }
     }
 }

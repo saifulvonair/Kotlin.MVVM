@@ -7,6 +7,9 @@ import android.content.pm.PackageManager
 import android.icu.number.NumberFormatter.with
 import android.icu.number.NumberRangeFormatter.with
 import android.location.*
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import com.google.android.material.snackbar.Snackbar
@@ -60,6 +63,12 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Refresh Location...", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+        if (checkForInternet(this)) {
+            Toast.makeText(this, "Connected", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Please connect to internet(Wifi or Mobile Data...!)", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -84,32 +93,35 @@ class MainActivity : AppCompatActivity() {
                 || super.onSupportNavigateUp()
     }
 
-
     @SuppressLint("MissingPermission", "SetTextI18n")
     private fun getLocation() {
         if (checkPermissions()) {
             if (isLocationEnabled()) {
-                mFusedLocationClient.lastLocation.addOnCompleteListener(this) { task ->
-                    val location: Location? = task.result
-                    if (location != null) {
-                        val geocoder = Geocoder(this, Locale.getDefault())
-                        val list: List<Address> =
-                            geocoder.getFromLocation(location.latitude, location.longitude, 1)
-                        var latitude: String = "${list[0].latitude}"
-                        var longitude: String = "${list[0].longitude}"
-                        var address: String = list[0].getAddressLine(0)
-                        LocationModel.Instance().setLocation(location, this)
-                        /*
-                        mainBinding.apply {
-                            tvLatitude.text = "Latitude\n${list[0].latitude}"
-                            tvLongitude.text = "Longitude\n${list[0].longitude}"
-                            tvCountryName.text = "Country Name\n${list[0].countryName}"
-                            tvLocality.text = "Locality\n${list[0].locality}"
-                            tvAddress.text = "Address\n${list[0].getAddressLine(0)}"
-                        }*/
-                        Toast.makeText(this, latitude+longitude, Toast.LENGTH_LONG).show()
+                /*
+                try{
+                    mFusedLocationClient.lastLocation.addOnCompleteListener(this) { task ->
+                        val location: Location? = task.result
+                        if (location != null) {
+                            val geocoder = Geocoder(this, Locale.getDefault())
+                            val list: List<Address> =
+                                geocoder.getFromLocation(location.latitude, location.longitude, 1)
+                            var latitude: String = "${list[0].latitude}"
+                            var longitude: String = "${list[0].longitude}"
+                            var address: String = list[0].getAddressLine(0)
+                            LocationModel.Instance().setLocation(location, this)
+                            /*
+                            mainBinding.apply {
+                                tvCountryName.text = "Country Name\n${list[0].countryName}"
+                                tvLocality.text = "Locality\n${list[0].locality}"
+                                tvAddress.text = "Address\n${list[0].getAddressLine(0)}"
+                            }*/
+                        }
                     }
+
+                }catch (e: Exception){
+                    Log.d("getLocation-Exception","")
                 }
+                */
                 mFusedLocationClient.getCurrentLocation(PRIORITY_HIGH_ACCURACY, object : CancellationToken() {
                     override fun onCanceledRequested(p0: OnTokenCanceledListener) = CancellationTokenSource().token
                     override fun isCancellationRequested() = false
@@ -174,4 +186,42 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    private fun checkForInternet(context: Context): Boolean {
+
+        // register activity with the connectivity manager service
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+
+        // if the android version is equal to M
+        // or greater we need to use the
+        // NetworkCapabilities to check what type of
+        // network has the internet connection
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+
+            // Returns a Network object corresponding to
+            // the currently active default data network.
+            val network = connectivityManager.activeNetwork ?: return false
+
+            // Representation of the capabilities of an active network.
+            val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return false
+
+            return when {
+                // Indicates this network uses a Wi-Fi transport,
+                // or WiFi has network connectivity
+                activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> true
+
+                // Indicates this network uses a Cellular transport. or
+                // Cellular has network connectivity
+                activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
+
+                // else return false
+                else -> false
+            }
+        } else {
+            // if the android version is below M
+            @Suppress("DEPRECATION") val networkInfo =
+                connectivityManager.activeNetworkInfo ?: return false
+            @Suppress("DEPRECATION")
+            return networkInfo.isConnected
+        }
+    }
 }
