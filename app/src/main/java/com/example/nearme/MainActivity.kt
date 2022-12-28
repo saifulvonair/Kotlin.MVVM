@@ -4,29 +4,23 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
-import android.icu.number.NumberFormatter.with
-import android.icu.number.NumberRangeFormatter.with
+import android.content.res.Resources
 import android.location.*
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
-import com.google.android.material.snackbar.Snackbar
+import android.util.DisplayMetrics
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.ImageView
-import android.widget.Toast
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import appfrw.LocationModel
-import appfrw.ModelList
-import appfrw.model.BaseModel
 import com.example.nearme.databinding.ActivityMainBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
@@ -34,7 +28,9 @@ import com.google.android.gms.location.Priority.PRIORITY_HIGH_ACCURACY
 import com.google.android.gms.tasks.CancellationToken
 import com.google.android.gms.tasks.CancellationTokenSource
 import com.google.android.gms.tasks.OnTokenCanceledListener
+import com.google.android.material.snackbar.Snackbar
 import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -69,6 +65,10 @@ class MainActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Please connect to internet(Wifi or Mobile Data...!)", Toast.LENGTH_SHORT).show()
         }
+        
+        val width: Int = Resources.getSystem().displayMetrics.widthPixels
+        val height: Int = Resources.getSystem().displayMetrics.heightPixels
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -184,6 +184,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 
 
     private fun checkForInternet(context: Context): Boolean {

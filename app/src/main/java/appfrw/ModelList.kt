@@ -1,6 +1,7 @@
 package appfrw
 
 import android.content.Context
+import android.content.res.Resources
 import appfrw.model.BaseModel
 import org.json.JSONObject
 
@@ -35,6 +36,13 @@ open abstract class ModelList : ArrayList<BaseModel>() {
 
     fun addItem(baseModel: BaseModel): BaseModel{
         this.add(baseModel)
+
+        val width: Int = Resources.getSystem().displayMetrics.widthPixels
+        val height: Int = Resources.getSystem().displayMetrics.heightPixels
+        baseModel.mImageWidth = width/2
+        var ht = baseModel.mImageWidth * 0.67
+        baseModel.mImageHeight = ht.toInt()
+
         return baseModel
     }
 

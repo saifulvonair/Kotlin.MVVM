@@ -7,7 +7,7 @@ import com.squareup.picasso.Picasso
 import org.json.JSONObject
 
 abstract class BaseModel {
-    var mImageWith: Int = 300
+    var mImageWidth: Int = 300
     var mImageHeight: Int = 200
     var mDataInfoPropertyKeyVsValue: JSONObject? = null
 
@@ -27,11 +27,11 @@ abstract class BaseModel {
         if(imageUrl != null){
             if(imageUrl.isNotEmpty()){
                 //https://futurestud.io/tutorials/picasso-image-resizing-scaling-and-fit
-                Picasso.with(view.context).load(imageUrl).resize(mImageWith, mImageHeight).into(view)
+                Picasso.with(view.context).load(imageUrl).resize(mImageWidth, mImageHeight).into(view)
             }
             else{
                 //var imageUrl = "https://lh6.googleusercontent.com/-55osAWw3x0Q/URquUtcFr5I/AAAAAAAAAbs/rWlj1RUKrYI/s1024/A%252520Photographer.jpg"
-                Picasso.with(view.context).load(R.drawable.ic_default_image).resize(mImageWith, mImageHeight).into(view)
+                Picasso.with(view.context).load(R.drawable.ic_default_image).resize(mImageWidth, mImageHeight).into(view)
                 Log.d("loadImage-image not found", "Loaded-ic_default_image")
             }
         }

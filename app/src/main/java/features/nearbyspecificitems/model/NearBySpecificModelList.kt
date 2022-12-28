@@ -1,5 +1,6 @@
 package features.nearbyspecificitems.model
 
+import android.content.res.Resources
 import android.util.Log
 import appfrw.ModelList
 import com.example.nearme.R
@@ -93,6 +94,9 @@ class NearBySpecificModelList: BaseNearbyModelList(), WebApiCall.WebApiCalObserv
                 resultJSONObject.put("mThumbnailWidth",this.mQueryParam!!.getString("mThumbnailWidth"))
                 basePlaceModel.setJSONProperty(resultJSONObject)
                 //Log.d("resultJSONObject=>",name+" =>" + imageUrl)
+
+
+
             }
             notifyUpdate();
             mDataLoaded = true;

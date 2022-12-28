@@ -1,10 +1,10 @@
 package features.base
 
-import android.content.Context
+import android.app.Activity
+import android.util.DisplayMetrics
 import appfrw.Constant
 import appfrw.LocationModel
 import appfrw.ModelList
-import appfrw.model.BaseModel
 import features.nearbyitems.model.NearByItemModel
 import org.json.JSONObject
 
@@ -33,6 +33,7 @@ open abstract class BaseNearbyModelList() : ModelList() {
         //TODO need to fix me
         resetDataLoaded()
         //
+
         this.clear()
         doLoad()
     }
